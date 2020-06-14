@@ -14,9 +14,19 @@ Our pitch video can be found on Youtube via [this link](https://youtube.com/some
 
 Our architecture is as below: 
 
+![DesignDiagram](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.svg)
+
 **_d. Detailed Solution:_**
 
-Detailed solution can be found in this repo under [path] 
+Detailed solution can be found in this repo under detailed_solution.md
+A rough guide to the files in this repo: 
+1. Flask-Cloudant: IBM Flask App with Cloudant integration/auth
+2. React: React Webapp code 
+3. Rpi: calculation of important metrics, code for simulation of sensor data
+4. AutoAI: code snippet to enable python to auth with Watson ML 
+5. research_background.md: Literature, Inspiration and Hardware specs
+6. setup.md: Step-by-step guide to replicate our system on your endpoints 
+7. detailed_solution.md: Detailed solution of our problems
 
 **_e. Proposed Timeline:_**
 
@@ -24,5 +34,21 @@ Detailed solution can be found in this repo under [path]
 
 **_g. Running the tests:_**
 
-We provide a simulation sensor data in /Rpi/sampledata.csv . It will generate ~5mins of sensors data from 6 different UIDs. If you have actual sensors data, follow the instruction in detailed_solution.md
+The detailed setup and running instruction can be found in this repo under setup.md
+
+**_h. Live Demo:_**
+
+The demo video can be found here 
+
+If you would like live demo, download rpi_code into your environment and run the simulation code. Visit demonicmushy.dyndns.org:3000 for the live demo (Hopefully we haven't torn down our project by the time you are reading this D: ) 
+
+**_i. Technology Used:_**
++ IBM Watson Studio's AutoAI and Watson ML
++ IBM Flask App
++ IBM Cloudant
++ IBM Functions (for debugging)
++ Rpi4, sensors and Python3
++ ReactJS 
+
+
 
