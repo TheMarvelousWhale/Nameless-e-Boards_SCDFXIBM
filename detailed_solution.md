@@ -3,7 +3,7 @@
 Below is the detailed solution for SCDFxIBM Innovation Challenge 2020 from Team Nameless. We propose e-Boards to enhance the efficiency of resources deployment together with real time monitor of firefighters' physical conditions during operations and trainings. The running tests can be found under "Running tests" section. 
 
 The architecture of the system is below: 
-![diagram](https://github.com/TheMarvelousWhale/SCDFxIBM-Inno-Challenge-2020/blob/master/Assets/DesignDiagram.svg?raw=true)
+![diagram](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.svg?raw=true)
 
 **I. Hardware**
 
@@ -18,19 +18,25 @@ Both the Webapp and Rpi can make call to the deployed ML model to get a risk lev
 ## Running tests
 In the ideal case, after setting up correctly following instructions from [setup.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Setup.md), running rpi_code.py will produce changes  at demonicmushy.dyndns.org:3000. Expected output is:
 
-![
+![Expected_output](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/expected_output.jpg)
 
 You will see the data changes in near-realtime at the e-BACO Board. On the site you can see e-staging board
 
-![Expected_output](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/expected_output.jpg)
+
 _To run data input simulation:_
 On one machine, run rpi_code.py. It should give this screen:
+
+
 ![rpi success](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/test_outputs/RPI_Simulation_Success.PNG)
 
 If you get 405/404 or 'server could not handle your request method', please feel free to check for errors in Flask/ contact us in case we have torn down the Flask Web App.
 
 An rpi error looks like this, but sometimes it does not signify failure. 
+
+
 !(rpi server_fail)(https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/test_outputs/RPI_Simulation_ServerHandle.PNG)
+
+
 
 _To check Flask operations:_
 
