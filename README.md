@@ -22,7 +22,7 @@ Our architecture is as below:
 
 **_d. Detailed Solution:_**
 
-Detailed solution can be found in this repo under detailed_solution.md
+Detailed solution can be found in this repo under [detailed_solution.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/detailed_solution.md)
 
 A rough guide to the files in this repo: 
 1. Flask-Cloudant: IBM Flask App with Cloudant integration/auth
@@ -33,13 +33,16 @@ A rough guide to the files in this repo:
 6. setup.md: Step-by-step guide to replicate our system on your endpoints 
 7. detailed_solution.md: Detailed solution of our problems
 
-**_e. Proposed Timeline:_**
+**_e. Project Roadmap:_**
 
 ![Roadmap](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/project_roadmap.png)
 
-**_g. Running the tests:_**
+**_f. Setup Instructions:_**
 
-The detailed setup and running instruction can be found in this repo under setup.md
+The detailed setup and running instruction can be found in this repo under [setup.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Setup.md) 
+
+**_g. Running the tests:_**
+The Test Cases for each node in our stack as well as expected output can be found in this repo under [running tests section](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/detailed_solution.md#running-tests)
 
 **_h. Live Demo:_**
 
