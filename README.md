@@ -46,6 +46,8 @@ The detailed setup and running instruction can be found in this repo under [setu
 
 
 **_g. Running the tests:_**
+
+
 The Test Cases for each node in our stack as well as expected output can be found in this repo under [running tests section](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/detailed_solution.md#running-tests)
 
 
@@ -59,6 +61,8 @@ If you would like to use your own data, download rpi_code into your environment 
 
 
 **_i. Technology Used:_**
+
+
 + IBM Watson Studio's AutoAI and Watson ML
 + IBM Flask App
 + IBM Cloudant
