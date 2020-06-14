@@ -13,9 +13,9 @@ Sensor Selection:
 
 [Heart Rate Sensor (Chest strap)](https://wiki.seeedstudio.com/Grove-Chest_Strap_Heart_Rate_Sensor/)  -- wireless, lowpower consumption (survive up to half year) and high sensitivity. Effective distance is 30cm more than sufficient.  
 
-[Temperature Sensor](https://www.adafruit.com/product/3984) - can withstand up to 500 degree Celsius and are five time faster due to it using platinum sensors. The temperature require an [RTD amplifier](https://thepihut.com/products/adafruit-pt100-rtd-temperature-sensor-amplifier-max31865?ref=isp_rel_prd&isp_ref_pos=3) (Wheat Stone bridge circuit, due to small voltage output), which can be safely mounted on the rpi board, amking it compact.  
+[Temperature Sensor](https://www.adafruit.com/product/3984) -- can withstand up to 500 degree Celsius and are five time faster due to it using platinum sensors. The temperature require an [RTD amplifier](https://thepihut.com/products/adafruit-pt100-rtd-temperature-sensor-amplifier-max31865?ref=isp_rel_prd&isp_ref_pos=3) (Wheat Stone bridge circuit, due to small voltage output), which can be safely mounted on the rpi board, amking it compact.  
 
-[Pressure Sensor] there is already a reading on the meter attached to the cylinder. We will need an ADC to fit on the meter and convert the readings into digital signal that rpi can process. This will be dependent on the meter that scdf FRs use.
+Pressure Sensor -- there is already a reading on the meter attached to the cylinder. We will need an ADC to fit on the meter and convert the readings into digital signal that rpi can process. This will be dependent on the meter that scdf FRs use.
 
 (Optional) [GSR Sensor](https://wiki.seeedstudio.com/Grove-GSR_Sensor/) -- this is used to measure skin resistance and thus detect sharp changes in resistance that corresponds to strong emotions, which can be used to detect distressing situation. 
 
