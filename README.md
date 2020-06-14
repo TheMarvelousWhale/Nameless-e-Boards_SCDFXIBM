@@ -30,7 +30,7 @@ A rough guide to the files in this repo:
 
 **_e. Proposed Timeline:_**
 
-![Roadmap](link of the image)
+![Roadmap](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/project_roadmap.png)
 
 **_g. Running the tests:_**
 
