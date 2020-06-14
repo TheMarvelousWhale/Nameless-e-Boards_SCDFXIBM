@@ -10,7 +10,7 @@ With this implementation, we can proactively monitor the physical conditions of 
  
 **_b. Pitch Video:_**
 
-Our pitch video can be found on Youtube via [this link](https://youtube.com/somelink)
+Our pitch video can be found on Youtube via [this link](https://youtu.be/3lg_noXvyjo)
 
 **_c. Architecture of Our Solution:_**
 
@@ -43,7 +43,7 @@ The detailed setup and running instruction can be found in this repo under setup
 
 **_h. Live Demo:_**
 
-The demo video can be found here 
+The demo video can be found on Youtube at [here](https://youtu.be/7WRQlVK01ZI) 
 
 If you would like live demo, download rpi_code into your environment and run the simulation code. Visit demonicmushy.dyndns.org:3000 for the live demo (Hopefully we haven't torn down our project by the time you are reading this D: ) 
 
