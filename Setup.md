@@ -32,7 +32,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - The main routing will be from 2 POST routes. ('./updateDocument') is used by rpi endpoints to update the Cloudant DB and ('./retrieveDocument') is used by React to retrieve data. 
 - Double check your cloudant credential in Flask
 
-*-- Notes: please ensure pipfile and pipfile.lock are properly defined as they gave us a 10 hours debugging session*
+*-- Notes: please ensure pipfile dependencies are properly defined as they gave us a 10 hours debugging session*
 
 4. React Web App
 
