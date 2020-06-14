@@ -34,8 +34,32 @@ def requests_error(error):
 
 @app.route('/initialiseCloudant', methods=['GET'])
 def initialiseCloudant():
-
     new_document = []
+    for z in range(0,6):
+        my_document = my_database[str((z+1))]
+        if my_document.exists():
+            my_document['bars']=0
+            my_document['estTimeRemain']=0
+            my_document['heartRate']=0
+            my_document['o2ConRate']=0
+            my_document['temp']=0
+            my_document['timestamp']=0
+            my_document.save()
+        else:
+            thisid = str(z+1)
+            sample_data = {
+                '_id': thisid,
+                'bars': 0,
+                'estTimeRemain': 0,
+                'heartRate': 0,
+                'o2ConRate': 0,
+                'temp': 0,
+                'timestamp': 0
+            }
+            new_document.append(my_database.create_document(sample_data))
+    return jsonify({'data':new_document})
+
+
     for z in range(0,6):
         thisid = str(z+1)
         sample_data = {

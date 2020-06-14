@@ -95,6 +95,10 @@ debugging_payload = {
         "timestamp": 1
 }
 
+NUM_RPI = 6
+NUM_JOBS_PER_RPI = 30
+NUM_RPI_DEBUG = 1
+NUM_JOBS_PER_RPI_DEBUG = 1
 
 def sendDataToCloud(uid):
     #initiliaze an instance of the data distributor
@@ -106,7 +110,7 @@ def sendDataToCloud(uid):
     #In the actual implementation, this should be an async wait for sensors to interrupt
     #This should be good enough for now.... 
     
-    for _ in range (1):
+    for _ in range (NUM_JOBS_PER_RPI+1):
       
       data = processSensorData(uid,d)  #get the data 
       pprint(data)                     #debugging to console
@@ -121,7 +125,7 @@ def main():
     
     
     """
-    for thread_id in range(1,2):
+    for thread_id in range(1,NUM_RPI+1):
         t = Thread(target = sendDataToCloud, args = (thread_id,))
         t.start()
         time.sleep(3)
