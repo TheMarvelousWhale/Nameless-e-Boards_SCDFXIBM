@@ -41,7 +41,7 @@ In the ideal case, after setting up correctly following instructions from [setup
 
 ![Expected_output](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/expected_output.jpg)
 
-You will see the data changes in near-realtime at the e-BACO Board. On the site you can see e-staging board
+You will see the data changes in near-realtime at the e-BACO Board, with risky metrics (e.g: High body temperature or abnormal heart rate) being highlighted in red. On the site you can see e-staging board as well.
 
 
 _To run data input simulation:_
