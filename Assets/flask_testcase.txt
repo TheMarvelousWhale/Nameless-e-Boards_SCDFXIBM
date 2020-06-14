@@ -1,0 +1,45 @@
+Description: Get dict with key "cat"
+path: https://python-flask-app-mxaye.mybluemix.net/get_data
+method: GET
+expected output: 
+{
+    "cat": "meow"
+}
+
+Description: Update dict with key "cat"
+path: https://python-flask-app-mxaye.mybluemix.net/post_data
+method: POST
+data:
+{
+    "cat": "some other string"
+}
+
+expected output: 
+{
+    "cat": "some other string"
+}
+
+Check connectivity with cloudant:
+path: https://python-flask-app-mxaye.mybluemix.net/initialiseCloudant
+method: GET
+expected output: 
+{
+    "data": [{
+        "_id": "1",
+        "bars": 0,
+        "estTimeRemain": 0,
+        "heartRate": 0,
+        "o2ConRate": 0,
+        "temp": 0,
+        "timestamp": 0
+    }, ...
+	{
+        "_id": "6",
+        "bars": 0,
+        "estTimeRemain": 0,
+        "heartRate": 0,
+        "o2ConRate": 0,
+        "temp": 0,
+        "timestamp": 0
+    }]
+}
