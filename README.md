@@ -16,7 +16,7 @@ Our pitch video can be found on Youtube via [this link](https://youtu.be/3lg_noX
 
 Our architecture is as below: 
 
-![DesignDiagram](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.svg)
+![DesignDiagram](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.png?raw=true)
 
 
 
