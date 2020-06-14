@@ -14,11 +14,13 @@ client.connect()
 
 my_database = client.create_database("database3")
 
+data_json = {
+    'cat': "meow",
+}
 
 @app.route('/')
 def hello_world():
     return app.send_static_file('index.html')
-
 
 @app.errorhandler(404)
 @app.route("/error404")
@@ -32,7 +34,7 @@ def requests_error(error):
 
 @app.route('/initialiseCloudant', methods=['GET'])
 def initialiseCloudant():
-    my_database = client.create_database("database3")
+
     new_document = []
     for z in range(0,6):
         thisid = str(z+1)
@@ -77,11 +79,9 @@ def retrieveDocument():
 
     return jsonify(return_data)
 
+
 @app.route('/get_data', methods=['GET']) #For Debug
 def get_data():
-    data_json = {
-        'cat': "meow",
-    }
     return jsonify(data_json)
 
 
