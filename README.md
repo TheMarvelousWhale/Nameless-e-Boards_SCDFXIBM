@@ -45,7 +45,7 @@ The detailed setup and running instruction can be found in this repo under setup
 
 The demo video can be found on Youtube at [here](https://youtu.be/7WRQlVK01ZI) 
 
-If you would like live demo, download rpi_code into your environment and run the simulation code. Visit demonicmushy.dyndns.org:3000 for the live demo (Hopefully we haven't torn down our project by the time you are reading this D: ) 
+If you would like to use your own data, download rpi_code into your environment and modify the simulation code to take in your sensors data. Visit demonicmushy.dyndns.org:3000 to see your own data being populated on the BACO Board (Hopefully we haven't torn down our project by the time you are reading this D: ) 
 
 **_i. Technology Used:_**
 + IBM Watson Studio's AutoAI and Watson ML
