@@ -60,7 +60,7 @@ An rpi error looks like this, but sometimes it does not signify failure.
 
 _To check Flask operations:_
 
-You can use https://reqbin.com/ to try sending test GET/POST requests given at our [flask_testcase.txt](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/flask_testcase.txt) 
+You can use https://reqbin.com/ to try sending test GET/POST requests given at our [flask_testcase.txt file](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/flask_testcase.txt) 
 
 _To check React operations:_
 You can check using the error message output at the host. 
