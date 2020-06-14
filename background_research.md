@@ -12,7 +12,7 @@ The idea from this project is strongly inspired by some ideas in the literature 
 
 ### II. Hardware 
 
-The implementation of hardware is heavily influenced by the available hardware in the market. The sensors we choose can be found [here](https://wiki.seeedstudio.com/Grove-Chest_Strap_Heart_Rate_Sensor/). They are lightweight, can withstand harsh operating conditions and has clientlib written in Python, making it easier to integrate with our system. 
+The implementation of hardware is heavily influenced by the available hardware in the market. The sensors we choose can be found [here](https://wiki.seeedstudio.com/Grove-Chest_Strap_Heart_Rate_Sensor/). They are lightweight, can withstand harsh operating conditions.
  
  For rpi, we will need a cellular adapter for each board to connect to IBM Flask App. Wifi was not chosen due to range and low QoS concerns.
  
