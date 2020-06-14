@@ -34,7 +34,7 @@ If you get 405/404 or 'server could not handle your request method', please feel
 An rpi error looks like this, but sometimes it does not signify failure. 
 
 
-!(rpi server_fail)[https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/test_outputs/RPI_Simulation_ServerHandle.PNG]
+![rpi server_fail](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/test_outputs/RPI_Simulation_ServerHandle.PNG)
 
 
 
