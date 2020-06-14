@@ -15,6 +15,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - Load rpi_code.py into the rpi, and change the functions of the data distributor class to async wait on interupt of the chosen sensors. Remove the multi threading from the simulation (as we would have multiple rpi boards in the actual implementation)
 - Load AutoAi/wml_authcode.py and AutoAI/wml_config.py (change to your credentials) and include it in the rpi_code to authenticate with Watson ML service. 
 - Make sure rpi's cellular adapter is active 
+
 *-- Notes: rpi 3-4 is recommended
 
 3. Flask + Cloudant
@@ -23,15 +24,18 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - setup Flask in your environment with proper git. Additional packages to be installed are flask-cors and cloudant (py client lib)
 - Our code will initiallize the database. There is one GET route to initialize the data, and this will be called by ReactApp (can be used for initialization/reset purpose).  
 - The main routing will be from 2 POST routes. ('./updateDocument') is used by rpi endpoints to update the Cloudant DB and ('./retrieveDocument') is used by React to retrieve data. 
+
 *-- Notes: please ensure pipfile and pipfile.lock are properly defined as they gave us a 10hours debugging session --
 
 4. React Web App
 - Install react and npm on your environment
 - Additional packages: axios 
+
 *-- Notes: 
 
 5. AutoAI
 - Provide an instance of Watson Studio, Create a Project with Watson ML service instance and AutoAI Service
 - Train a model based on input CSV
 - Deploy the model from AutoAI 
+
 *-- Notes: The quality of model is very dependent on the amount of labelled data provided in the csv
