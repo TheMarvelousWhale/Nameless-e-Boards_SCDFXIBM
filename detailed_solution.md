@@ -24,9 +24,11 @@ Sensor Selection:
 
 
 **II. React Webapp**
+
 We use React.js to build a webapp that pulls the sensor data asynchronously from Cloudant (via Flask) to show to the staging OIC the physical conditions of his men. 
 
 **III. IBM Cloud**
+
 We use IBM Flask App as the controller of sensor data. The sensor data gathered at the rpi modules for each responders will do a POST request to a the IBM Flask App service url to update the sensor data at a regular intervals. Flask will then store this data to CloudantDB for persistence storage. 
 
 React will make POST request to Flask at the same service url, and Flask will retrieve the corresponding data based on the id of the rpi and send back to React to display the data. 
