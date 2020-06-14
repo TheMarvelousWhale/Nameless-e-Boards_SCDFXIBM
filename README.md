@@ -4,7 +4,9 @@ Hi! We are team Nameless, comprises Raymond Toh, Shanjie Yong, Damien Cheng and 
 
 **_a. Problem Description and proposed idea:_** 
 
-We aim to tackle the issue of climate change and how it affect the performance of our First Responders during training and operations. 
+We aim to tackle the issue of climate change and how it affect the performance of our First Responders during training and operations. Our proposed solution is the digitalization of BACO and staging boards to enhance strategic deployment of resources, together with use 3 different sensors to closely monitor first responders physical conditions during training and operation. All data is stored on IBM Cloud and visualized near-realtime on React Webapp.
+
+With this implementation, we can proactively monitor the physical conditions of the first responders and flag out any potential risks. Also, we can reduce staging’s workload to focus on operationally-oriented tasks.
  
 **_b. Pitch Video:_**
 
@@ -16,9 +18,12 @@ Our architecture is as below:
 
 ![DesignDiagram](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.svg)
 
+
+
 **_d. Detailed Solution:_**
 
 Detailed solution can be found in this repo under detailed_solution.md
+
 A rough guide to the files in this repo: 
 1. Flask-Cloudant: IBM Flask App with Cloudant integration/auth
 2. React: React Webapp code 
