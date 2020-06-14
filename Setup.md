@@ -40,7 +40,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - Additional packages: axios 
 - Double check all the credentials
 - Host your app
-*-- Notes: *
+
 
 5. AutoAI (optional)
 
