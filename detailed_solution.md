@@ -1,4 +1,4 @@
-#Detailed Solution 
+# Detailed Solution 
 
 Below is the detailed solution for SCDFxIBM Innovation Challenge 2020 from Team Nameless. We propose e-Boards to enhance the efficiency of resources deployment together with real time monitor of firefighters' physical conditions during operations and trainings. The running tests can be found under "Running tests" section. 
 
