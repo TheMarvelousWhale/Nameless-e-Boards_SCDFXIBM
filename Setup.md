@@ -52,6 +52,6 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 
 **6. The run**
 
-Once you have deployed everything (if you deploy your own Flask/React/Cloudant etc) triple check your api key and credentials across the applications (it will save you a lot of time!) and hopefully once u run the rpi simulation code (or your own sensors) the readings will stream seamlessly through Flask into Cloudant and React will pull your data from cloud and visualize in near-realtime! You can draw staging plan and fill in admin/logistic details on your react-hosted site as well! 
+Once you have deployed everything (if you deploy your own Flask/React/Cloudant etc) triple check your api key and credentials across the applications (it will save you a lot of time!) and hopefully once you run the rpi simulation code (or your own sensors) the readings will stream seamlessly through Flask into Cloudant and React will pull your data from cloud and visualize in near-realtime! You can draw staging plan and fill in admin/logistic details on your react-hosted site as well! 
 
 **_---------------------------------------- CONGRATULATIONS!! ----------------------------------------_**
