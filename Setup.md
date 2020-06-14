@@ -10,7 +10,7 @@ The services we are using are IBM Flask App and Cloudant DB.
 1. Sensors
 
 Connect the sensors to the Rpi through wires. Make sure to use harsh operations power supply to ensure rpi+sensors system can last more than 80mins (2x40mins round). Secure the wiring.  
-*-- Notes: Implementation specific. Not gonna describe in details
+*-- Notes: Implementation specific. Not gonna describe in details*
 
 2. Rpi 
 
@@ -32,7 +32,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - The main routing will be from 2 POST routes. ('./updateDocument') is used by rpi endpoints to update the Cloudant DB and ('./retrieveDocument') is used by React to retrieve data. 
 - Double check your cloudant credential in Flask
 
-*-- Notes: please ensure pipfile and pipfile.lock are properly defined as they gave us a 10 hours debugging session --*
+*-- Notes: please ensure pipfile and pipfile.lock are properly defined as they gave us a 10 hours debugging session*
 
 4. React Web App
 
@@ -54,4 +54,4 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 
 Once you have deployed everything (if you deploy your own Flask/React/Cloudant etc) triple check your api key and credentials across the applications (it will save you a lot of time!) and hopefully once u run the rpi simulation code (or your own sensors) the readings will stream seamlessly through Flask into Cloudant and React will pull your data from cloud and visualize in near-realtime! You can draw staging plan and fill in admin/logistic details on your react-hosted site as well! 
 
-**_-- CONGRATULATIONS!! --_**
+**_---------------------------------------- CONGRATULATIONS!! ----------------------------------------_**
