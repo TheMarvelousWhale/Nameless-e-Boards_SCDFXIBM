@@ -1,6 +1,6 @@
 # Team Nameless
 
-Hi! We are team Nameless, comprises Raymond Toh, Shanjie Yong, Damien Cheng and Hoang Viet. We are group of NTU Year 2 Students at the time of this project. 
+Hi! We are team Nameless, comprises Raymond Toh, Shanjie Yong, Damien Cheng and Hoang Viet. We are a group of NTU Year 2 Students at the time of this project. 
 
 **_a. Problem Description and proposed idea:_** 
 
