@@ -22,7 +22,7 @@ Our architecture is as below:
 
 **_d. Detailed Solution:_**
 
-Detailed solution can be found in this repo under [detailed_solution.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/detailed_solution.md)
+Detailed solution can be found in this repo under [detailed_solution.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/DesignDiagram.png)
 
 A rough guide to the files in this repo: 
 1. Flask-Cloudant: IBM Flask App with Cloudant integration/auth
