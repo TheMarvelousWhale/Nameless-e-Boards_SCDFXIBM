@@ -1,6 +1,6 @@
-###Step-By-Step Guide on how to set up our system
+### Step-By-Step Guide on how to set up our system
 
-_ Please refer to the Assets/DesignDiagram.svg for System Diagram
+_Please refer to the Assets/DesignDiagram.svg for System Diagram
 
 0. IBM Account and Services:
 Please ensure you have your IBM Account set up and running. If you are Lite user, you won't be able to use the AutoAI resources as we are already using Cloudant for our DB (and Watson ML requires another Cloudant Instance). 
