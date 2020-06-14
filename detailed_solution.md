@@ -19,7 +19,7 @@ Sensor Selection:
 
 (Optional) [GSR Sensor](https://wiki.seeedstudio.com/Grove-GSR_Sensor/) -- this is used to measure skin resistance and thus detect sharp changes in resistance that corresponds to strong emotions, which can be used to detect distressing situation. 
 
-*--Notes: About hardware interfacing *
+*--Notes: About hardware interfacing*
 *The code for interfacing these hardware endpoints are dependent on the manufactureres and the API given. There might be additional interfacing and hardware required depends on the hardware you choose. Hence for the live demo purpose, we have abstracted this layer and provide the sampledata.csv* 
 
 
