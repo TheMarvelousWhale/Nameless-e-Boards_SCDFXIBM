@@ -59,23 +59,9 @@ def initialiseCloudant():
             new_document.append(my_database.create_document(sample_data))
     return jsonify({'data':new_document})
 
-
-    for z in range(0,6):
-        thisid = str(z+1)
-        sample_data = {
-            '_id': thisid,
-            'bars': 0,
-            'estTimeRemain': 0,
-            'heartRate': 0,
-            'o2ConRate': 0,
-            'temp': 0,
-            'timestamp': 0
-        }
-        new_document.append(my_database.create_document(sample_data))
-    return jsonify({'data':new_document})
-
 @app.route('/updateDocument', methods=['POST']) 
 def updateDocument():
+    my_database = client.create_database("database3")
     args = request.json
     my_document = my_database[str(args['_id'])]
     my_document['bars']=args['bars']
@@ -89,6 +75,7 @@ def updateDocument():
 
 @app.route('/retrieveDocument', methods=['POST']) 
 def retrieveDocument():
+    my_database = client.create_database("database3")
     args = request.json
     my_document = my_database[str(args['uid'])]
     return_data = {
