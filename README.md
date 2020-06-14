@@ -35,20 +35,28 @@ A rough guide to the files in this repo:
 
 **_e. Project Roadmap:_**
 
+
 ![Roadmap](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Assets/project_roadmap.png)
+
 
 **_f. Setup Instructions:_**
 
+
 The detailed setup and running instruction can be found in this repo under [setup.md](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/Setup.md) 
+
 
 **_g. Running the tests:_**
 The Test Cases for each node in our stack as well as expected output can be found in this repo under [running tests section](https://github.com/TheMarvelousWhale/Nameless-e-Boards_SCDFXIBM/blob/master/detailed_solution.md#running-tests)
 
+
 **_h. Live Demo:_**
+
 
 The demo video can be found on Youtube at [here](https://youtu.be/7WRQlVK01ZI) 
 
+
 If you would like to use your own data, download rpi_code into your environment and modify the simulation code to take in your sensors data. Visit demonicmushy.dyndns.org:3000 to see your own data being populated on the BACO Board (Hopefully we haven't torn down our project by the time you are reading this D: ) 
+
 
 **_i. Technology Used:_**
 + IBM Watson Studio's AutoAI and Watson ML
