@@ -26,7 +26,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 
 - Provide an instance of Flask Web App  - link it to your git flask repo and then deploy on IBM (make sure your IBM Plan has enough memory to cater for the app). 
 - Provide an instance of Cloudant service. During creation, choose IAM with legacy authentication. Take note of your credentials 
-- setup Flask in your environment with proper git. Additional packages to be installed are flask-cors and cloudant (py client lib)
+- Setup Flask in your environment with proper git. Additional packages to be installed are flask-cors and cloudant (py client lib)
 - In IBM Flask App, clone the Flask-Cloudant into a separate repo and link it to the App. Deploy the app. You might need to change the urls variables (flask_url in rpi_code.py and the url in React if you are deploying your own Flask.
 - Our code will initiallize the database. There is one GET route to initialize the data, and this will be called by ReactApp (can be used for initialization/reset purpose).  
 - The main routing will be from 2 POST routes. ('./updateDocument') is used by rpi endpoints to update the Cloudant DB and ('./retrieveDocument') is used by React to retrieve data. 
