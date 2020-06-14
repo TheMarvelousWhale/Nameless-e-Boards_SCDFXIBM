@@ -63,6 +63,11 @@ You can use https://reqbin.com/ to try sending test GET/POST requests given at o
 _To check React operations:_
 You can check using the error message output at the host. 
 
+**_Credentials:_**
+Credentials that you need to fill in 
+Cloundant Credentials: /Flask-Cloudant/server/routes/index.py
+Watson ML Credentials: /AutoAI/wml_config.py
+
 ## Challenges and Mitigations
 
 We aim achieve near-realtime performance by using shorter-polling interval between nodes of our Technology stack. There is imminent latency issue presence as our tech stack involves multiple services. 
