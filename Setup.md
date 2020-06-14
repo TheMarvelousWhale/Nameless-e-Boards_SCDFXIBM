@@ -15,6 +15,7 @@ Connect the sensors to the Rpi through wires. Make sure to use harsh operations 
 - Load rpi_code.py into the rpi, and change the functions of the data distributor class to async wait on interupt of the chosen sensors. Remove the multi threading from the simulation (as we would have multiple rpi boards in the actual implementation)
 - Load AutoAi/wml_authcode.py and AutoAI/wml_config.py (change to your credentials) and include it in the rpi_code to authenticate with Watson ML service. 
 - Make sure rpi's cellular adapter is active 
+
 *-- Notes: rpi 3-4 is recommended
 
 3. Flask + Cloudant
